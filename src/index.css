@@ -1,0 +1,39 @@
+body {
+  background-color: black !important;
+}
+
+h1, h5 {
+  font-family: Lobster, Monospace;
+}
+
+#root {
+  margin: 0;
+  display: block;
+}
+
+#quote-box {
+  width: 500px !important;
+  padding: 50px !important;
+  border-radius: 10px;
+}
+
+#text {
+  text-align: center;
+}
+
+#author {
+  text-align: right;
+}
+
+#tweet-quote {
+  color: #343a40;
+  font-size: 40px;
+}
+
+a {
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+a:hover {
+  color: #23272b !important;
+}
